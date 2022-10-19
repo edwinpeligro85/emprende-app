@@ -1,0 +1,13 @@
+label {
+  width: 120px;
+  &.form-check-label {
+    width: auto;
+  }
+}
+.form-control {
+  width: auto;
+}
+#units,
+#days-per-expense {
+  width: 80px;
+}

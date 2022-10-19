@@ -1,0 +1,31 @@
+{
+  "generator-ngx-rocket": {
+    "version": "11.0.0",
+    "props": {
+      "location": "path",
+      "strict": true,
+      "skipInstall": false,
+      "skipQuickstart": false,
+      "initGit": true,
+      "usePrefix": true,
+      "appName": "emprende-app",
+      "target": ["web"],
+      "ui": "bootstrap",
+      "features": ["pwa", "lazy"],
+      "languages": ["es-ES"],
+      "tools": ["prettier"],
+      "utility": [],
+      "deploy": "github",
+      "projectName": "emprende-app",
+      "packageManager": "npm",
+      "mobile": [],
+      "desktop": [],
+      "pwa": true,
+      "auth": false,
+      "lazy": true,
+      "e2e": false,
+      "cypress": false,
+      "angulartics": false
+    }
+  }
+}

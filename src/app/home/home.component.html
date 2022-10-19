@@ -1,0 +1,96 @@
+<div class="container mt-5">
+  <div class="row">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" class="col-12 col-lg-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group d-flex align-items-center">
+              <label for="units">Unidades</label>
+              <input class="form-control" formControlName="units" id="units" type="number" min="0" />
+            </div>
+          </div>
+
+          <div formArrayName="costs" class="col-12">
+            <div class="my-3 d-flex justify-content-between align-items-center">
+              <h6>Listado de costos</h6>
+              <button (click)="addCost()" type="button" title="Agregar costo" class="btn btn-primary rounded-circle">
+                <em class="fa-solid fa-plus"></em>
+              </button>
+            </div>
+
+            <ng-container *ngFor="let cost of costs.controls; let i = index">
+              <div class="form-group d-flex align-items-center pt-1">
+                <label for="cost-{{ i }}">Costo ({{ i + 1 }})</label>
+
+                <input class="form-control" [formControlName]="i" id="cost-{{ i }}" type="number" min="0" />
+
+                <button
+                  (click)="removeCost(i)"
+                  type="button"
+                  [disabled]="costs.length === 1"
+                  title="Eliminar costo"
+                  class="btn btn-danger rounded-circle ms-auto"
+                >
+                  <em class="fa-solid fa-minus"></em>
+                </button>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+
+        <div class="row my-4"><hr /></div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group d-flex align-items-center">
+              <label for="days-per-expense">Días por gasto</label>
+              <input class="form-control" formControlName="expense" id="days-per-expense" type="number" min="0" />
+            </div>
+          </div>
+
+          <div formArrayName="expenses" class="col-12">
+            <div class="my-3 d-flex justify-content-between align-items-center">
+              <h6>Listado de gastos</h6>
+              <button (click)="addExpense()" type="button" title="Agregar gasto" class="btn btn-primary rounded-circle">
+                <em class="fa-solid fa-plus"></em>
+              </button>
+            </div>
+
+            <ng-container *ngFor="let expense of expenses.controls; let i = index">
+              <div class="form-group d-flex align-items-center pt-1">
+                <label for="expense-{{ i }}">Gasto ({{ i + 1 }})</label>
+
+                <input class="form-control" [formControlName]="i" id="expense-{{ i }}" type="number" min="0" />
+
+                <button
+                  type="button"
+                  (click)="removeExpense(i)"
+                  [disabled]="expenses.length === 1"
+                  title="Eliminar gasto"
+                  class="btn btn-danger rounded-circle ms-auto"
+                >
+                  <em class="fa-solid fa-minus"></em>
+                </button>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12">
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" formControlName="acceptTerms" id="acceptTerms" /> Acepto
+                todos los términos y condiciones
+              </label>
+            </div>
+          </div>
+
+          <div class="col-2 mt-3 mx-auto">
+            <button type="submit" class="btn btn-success text-light px-3">Calcular</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
