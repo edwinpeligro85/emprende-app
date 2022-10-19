@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "timestamp": 1666181614082,
+  "index": "/emprende-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/emprende-app/10.a28afbc970518ca2.js",
+        "/emprende-app/favicon.ico",
+        "/emprende-app/index.html",
+        "/emprende-app/main.01b4c205f4a9fd52.js",
+        "/emprende-app/manifest.webmanifest",
+        "/emprende-app/polyfills.0340ea6ec30dd582.js",
+        "/emprende-app/runtime.9f9a286720ef699b.js",
+        "/emprende-app/styles.1c0e0ca99182c1c4.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/emprende-app/apple-touch-icon.png",
+        "/emprende-app/assets/ngx-rocket-logo.png",
+        "/emprende-app/assets/ngx-rocket-logo@192.png",
+        "/emprende-app/fa-brands-400.87a84e7a754d3ea3.woff2",
+        "/emprende-app/fa-brands-400.8f295425e00606a5.ttf",
+        "/emprende-app/fa-regular-400.561c7c94e0bcd512.woff2",
+        "/emprende-app/fa-regular-400.e9092185220128b0.ttf",
+        "/emprende-app/fa-solid-900.3cfeed05c6462b50.woff2",
+        "/emprende-app/fa-solid-900.ab3a31afd1611597.ttf"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/emprende-app/10.a28afbc970518ca2.js": "2a7348297d211df10b91e7580bede643c6498670",
+    "/emprende-app/apple-touch-icon.png": "229df2094cc590088de00ea97a1eb4e4493101d2",
+    "/emprende-app/assets/ngx-rocket-logo.png": "0ac53fd27406fe5a36e68285315fb0012e54058e",
+    "/emprende-app/assets/ngx-rocket-logo@192.png": "461b730f9c6dc818f8af9acbe62dfde24dc02d7a",
+    "/emprende-app/fa-brands-400.87a84e7a754d3ea3.woff2": "380bea4e9eb484d835d89cc608f2af7c3179e8a4",
+    "/emprende-app/fa-brands-400.8f295425e00606a5.ttf": "42350ed503d66ae23a9c68d38966f25bc3007319",
+    "/emprende-app/fa-regular-400.561c7c94e0bcd512.woff2": "56be4c28de7c67747b0fe3dd606be8b319f6d4f4",
+    "/emprende-app/fa-regular-400.e9092185220128b0.ttf": "9262ea1d0711b658bb75d5cbe9345e080c7dea90",
+    "/emprende-app/fa-solid-900.3cfeed05c6462b50.woff2": "a7fca574d24e9ffa5ee0e0589ffe17277ae4ec27",
+    "/emprende-app/fa-solid-900.ab3a31afd1611597.ttf": "d2caaf5ce75d0da13ace325e24f7aa7079ef1891",
+    "/emprende-app/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
+    "/emprende-app/index.html": "24c18bc0e873d27daf33b06a6b4ffa444c05bdc8",
+    "/emprende-app/main.01b4c205f4a9fd52.js": "808498bdc3d2884765a531874dd9d5cdc8e6ae89",
+    "/emprende-app/manifest.webmanifest": "38ae61698c27625170bf87d993f7cd70cfa4f304",
+    "/emprende-app/polyfills.0340ea6ec30dd582.js": "393e444164d61fe47c4057484da0fff3418b0f95",
+    "/emprende-app/runtime.9f9a286720ef699b.js": "590e0037bab2d83c64f918062e1099986359e527",
+    "/emprende-app/styles.1c0e0ca99182c1c4.css": "7ac35f495b5049c8a12cf72721ab27c495dc6f43"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
