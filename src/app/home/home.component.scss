@@ -11,3 +11,8 @@ label {
 #days-per-expense {
   width: 80px;
 }
+
+.ng-touched.ng-invalid,
+.ng-submitted .ng-invalid {
+  border-color: var(--bs-red);
+}
