@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1666207436446,
+  "timestamp": 1666224929064,
   "index": "/emprende-app/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "/emprende-app/10.a28afbc970518ca2.js",
         "/emprende-app/favicon.ico",
         "/emprende-app/index.html",
-        "/emprende-app/main.2e241b559c5b6049.js",
+        "/emprende-app/main.a307a1723175c23a.js",
         "/emprende-app/manifest.webmanifest",
         "/emprende-app/polyfills.0340ea6ec30dd582.js",
         "/emprende-app/runtime.2a1113b2d066b783.js",
@@ -33,6 +33,7 @@
         "/emprende-app/apple-touch-icon.png",
         "/emprende-app/assets/ngx-rocket-logo.png",
         "/emprende-app/assets/ngx-rocket-logo@192.png",
+        "/emprende-app/assets/no_data.svg",
         "/emprende-app/fa-brands-400.87a84e7a754d3ea3.woff2",
         "/emprende-app/fa-brands-400.8f295425e00606a5.ttf",
         "/emprende-app/fa-regular-400.561c7c94e0bcd512.woff2",
@@ -49,6 +50,7 @@
     "/emprende-app/apple-touch-icon.png": "229df2094cc590088de00ea97a1eb4e4493101d2",
     "/emprende-app/assets/ngx-rocket-logo.png": "0ac53fd27406fe5a36e68285315fb0012e54058e",
     "/emprende-app/assets/ngx-rocket-logo@192.png": "461b730f9c6dc818f8af9acbe62dfde24dc02d7a",
+    "/emprende-app/assets/no_data.svg": "dabc6bbe6f5fb196c10881bf53eefa109a1c61f6",
     "/emprende-app/fa-brands-400.87a84e7a754d3ea3.woff2": "380bea4e9eb484d835d89cc608f2af7c3179e8a4",
     "/emprende-app/fa-brands-400.8f295425e00606a5.ttf": "42350ed503d66ae23a9c68d38966f25bc3007319",
     "/emprende-app/fa-regular-400.561c7c94e0bcd512.woff2": "56be4c28de7c67747b0fe3dd606be8b319f6d4f4",
@@ -56,8 +58,8 @@
     "/emprende-app/fa-solid-900.3cfeed05c6462b50.woff2": "a7fca574d24e9ffa5ee0e0589ffe17277ae4ec27",
     "/emprende-app/fa-solid-900.ab3a31afd1611597.ttf": "d2caaf5ce75d0da13ace325e24f7aa7079ef1891",
     "/emprende-app/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
-    "/emprende-app/index.html": "5d0407a40f93766f794945d79af637968bd0f930",
-    "/emprende-app/main.2e241b559c5b6049.js": "2b997fc1f57b6c5b1e68c3e87d5da8a96d5879bd",
+    "/emprende-app/index.html": "d345cb3caaf950c6bb4214c2b0327b86f777e3cf",
+    "/emprende-app/main.a307a1723175c23a.js": "6a09848e5e063627c4a46ec6dbcd41947db3a5fc",
     "/emprende-app/manifest.webmanifest": "38ae61698c27625170bf87d993f7cd70cfa4f304",
     "/emprende-app/polyfills.0340ea6ec30dd582.js": "393e444164d61fe47c4057484da0fff3418b0f95",
     "/emprende-app/runtime.2a1113b2d066b783.js": "7a85223def1462ed639d99d334428677fa634973",
